@@ -1,0 +1,19 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top circle of the L -->
+  <circle cx="25" cy="20" r="8" fill="none" stroke="#ff6600" stroke-width="4"/>
+  
+  <!-- Vertical line of the L -->
+  <line x1="25" y1="28" x2="25" y2="70" stroke="#ff6600" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Bottom left circle -->
+  <circle cx="25" cy="78" r="8" fill="none" stroke="#ff6600" stroke-width="4"/>
+  
+  <!-- Horizontal line at bottom -->
+  <line x1="33" y1="78" x2="67" y2="78" stroke="#ff6600" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Bottom right circle -->
+  <circle cx="75" cy="78" r="8" fill="none" stroke="#ff6600" stroke-width="4"/>
+  
+  <!-- Rounded corners connecting the shapes -->
+  <path d="M 25 28 L 25 70 M 33 78 L 67 78" stroke="#ff6600" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

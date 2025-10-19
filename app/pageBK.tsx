@@ -1,8 +1,7 @@
 'use client';
 
-import { Users, Lightbulb, Globe, Award, Target, Zap, BookOpen, TrendingUp, MessageSquare, Star, ArrowRight, Mail, Instagram, Twitter, Linkedin } from 'lucide-react';
+import { Rocket, Users, Lightbulb, Globe, Award, Target, Zap, BookOpen, TrendingUp, MessageSquare, Star, ArrowRight, Mail, Instagram, Twitter, Linkedin } from 'lucide-react';
 import { useEffect, useState, useRef } from 'react';
-import Image from 'next/image';
 
 export default function Home() {
   const [displayText, setDisplayText] = useState('');
@@ -134,7 +133,7 @@ export default function Home() {
       {/* Navigation */}
       <nav>
         <div className="logo">
-          <Image src="/ludus-logo.svg" alt="Ludus Labs" width={32} height={32} className="logo-icon" />
+          <Rocket className="logo-icon" />
           Ludus Labs
         </div>
         <ul className="nav-links">
@@ -241,7 +240,7 @@ export default function Home() {
         <div className="details-grid">
           <div className="detail-card">
             <div className="detail-icon">
-              <Zap size={32} />
+              <Rocket size={32} />
             </div>
             <h3>Purpose Driven Builders</h3>
             <p>For students who want to test bold ideas, launch meaningful ventures, and shape their futures through creation, not just consumption.</p>
@@ -255,7 +254,7 @@ export default function Home() {
           </div>
           <div className="detail-card">
             <div className="detail-icon">
-              <Target size={32} />
+              <Zap size={32} />
             </div>
             <h3>Systems Hackers</h3>
             <p>For changemakers ready to tackle big, messy problems and experiment their way toward better solutions.</p>
@@ -312,13 +311,6 @@ export default function Home() {
             <h3>Certify Your Skills, Earn Credit</h3>
             <p>Boost your resume with a digital certificate and, at eligible schools, earn academic credit toward your degree.</p>
           </div>
-          <div className="learn-card">
-            <div className="learn-icon">
-              <MessageSquare size={28} />
-            </div>
-            <h3>Stay Connected, Give Back</h3>
-            <p>Gain lifetime access to our alumni community of global peers and the chance to return as an ambassador and help lead future programs.</p>
-          </div>
         </div>
       </section>
 
@@ -362,7 +354,7 @@ export default function Home() {
               
               <div className="about-card about-card-highlight">
                 <div className="about-card-icon">
-                  <Image src="/ludus-logo.svg" alt="Ludus Labs" width={32} height={32} />
+                  <Rocket size={32} />
                 </div>
                 <h3 className="about-card-heading">Why &quot;Ludus&quot;?</h3>
                 <p className="about-card-text">The word Ludus means both play and school in Latin.</p>
@@ -398,21 +390,21 @@ export default function Home() {
       <footer>
         <div className="footer-content">
           <div className="footer-logo">
-            <Image src="/ludus-logo.svg" alt="Ludus Labs" width={28} height={28} />
+            <Rocket size={24} />
             <span>Ludus Labs</span>
           </div>
           
           <div className="footer-social">
-            <a href="mailto:hello@luduslabs.co" className="social-icon" aria-label="Email">
+            <a href="#" className="social-icon" aria-label="Email">
               <Mail size={24} />
             </a>
-            <a href="https://www.instagram.com/ludus.labs/" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Instagram">
+            <a href="#" className="social-icon" aria-label="Instagram">
               <Instagram size={24} />
             </a>
-            <a href="https://twitter.com/luduslabs_co" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Twitter">
+            <a href="#" className="social-icon" aria-label="Twitter">
               <Twitter size={24} />
             </a>
-            <a href="https://www.linkedin.com/company/ludusincubator/" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="LinkedIn">
+            <a href="#" className="social-icon" aria-label="LinkedIn">
               <Linkedin size={24} />
             </a>
           </div>

@@ -39,8 +39,9 @@ nav {
 }
 
 .logo-icon {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
+  color: #ff6600;
 }
 
 .nav-links {
@@ -613,7 +614,7 @@ footer {
 }
 
 .footer-logo svg {
-  /* Logo already has color built in */
+  color: #ff6600;
 }
 
 .footer-social {
