@@ -309,7 +309,7 @@ export default function Home() {
             <div className="learn-icon">
               <Award size={28} />
             </div>
-            <h3>Certify Your Skills, Earn Credit</h3>
+            <h3>Certify Skills, Earn Credit</h3>
             <p>Boost your resume with a digital certificate and, at eligible schools, earn academic credit toward your degree.</p>
           </div>
           <div className="learn-card">
@@ -408,9 +408,6 @@ export default function Home() {
             </a>
             <a href="https://www.instagram.com/ludus.labs/" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Instagram">
               <Instagram size={24} />
-            </a>
-            <a href="https://twitter.com/luduslabs_co" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Twitter">
-              <Twitter size={24} />
             </a>
             <a href="https://www.linkedin.com/company/ludusincubator/" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="LinkedIn">
               <Linkedin size={24} />
