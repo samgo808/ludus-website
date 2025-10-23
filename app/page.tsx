@@ -356,7 +356,7 @@ export default function Home() {
                 </div>
                 <h3 className="about-card-heading">Where We Work</h3>
                 <p className="about-card-text">Our work began in Japan, but our community is global.</p>
-                <p className="about-card-text">Through programs like NUCU, a collaboration between Nagoya University (NU) and the University of Colorado (CU), we bring together university students from across countries and disciplines to form startup teams.</p>
+                <p className="about-card-text">Through programs like NUCU, a collaboration between Nagoya University (NU) and the University of Colorado (CU), we bring together university students from across countries and disciplines to form startup teams through both online and in-person formats.</p>
                 <p className="about-card-text">Together, they explore emerging technologies, tackle real-world problems, and grow in ways that classrooms alone can&apos;t offer.</p>
               </div>
               
